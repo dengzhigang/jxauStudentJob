@@ -136,6 +136,22 @@ a {
     margin-bottom: 42px;
 }
 
+#wp_news_w6 .wp_article_list .text_list_item{
+    margin-bottom: unset;
+    border-bottom: 1px dashed #aaa;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+#wp_news_w6 .wp_article_list .vedio_list_item{
+    float: left;
+}
+
+#wp_news_w6 .wp_article_list .vedio_list_item:not(:nth-child(3n+1)){
+   margin-left: 35px;
+}
+
 /* 机构设置 - 现任领导 - 详情*/
 .detail {
     max-width: 1920px;
@@ -177,10 +193,12 @@ a {
 .content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right {
     width: 714px;
 }
+
 .content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right > .Article_Title {
     font-weight: bold;
     font-size: 16px;
 }
+
 .content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right > .Article_PublishDate {
     color: #f29f37;
     font-size: 14px;
