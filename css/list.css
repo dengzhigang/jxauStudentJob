@@ -1,0 +1,204 @@
+a {
+    color: #000;
+}
+
+.slider_in {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider_in img {
+    max-width: 1920px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 办事流程 */
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 58px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.left {
+    width: 240px;
+    float: left;
+}
+
+.left h3 {
+    height: 87px;
+    line-height: 87px;
+    text-align: center;
+    background: #f29f37;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column {
+    font-size: 20px;
+    line-height: 64px;
+    text-align: left;
+    background: #f7f7f7;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column span {
+    padding-left: 50px;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column:hover {
+    background: #efefef;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column:hover > a > span {
+    color: #f29f37;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column:last-child:hover .wp_subcolumn {
+    background: #f7f7f7;
+}
+
+.left #wp_listcolumn_w4 .wp_listcolumn > .selected,
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column > .wp_subcolumn > .selected {
+    background: #fff5e8;
+    position: relative;
+}
+
+.left #wp_listcolumn_w4 .wp_listcolumn > .selected::after,
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column > .wp_subcolumn > .selected::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 11px;
+    top: 28px;
+    left: 200px;
+    background: url(../images/arrow.png) no-repeat;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column > .wp_subcolumn > .wp_column > a > span {
+    padding-left: 70px;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column > .wp_subcolumn > .wp_column:hover {
+    background: #efefef;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column > .wp_subcolumn > .wp_column:hover > a > span {
+    color: #f29f37;
+}
+
+.left #wp_listcolumn_w4 > .wp_listcolumn > .wp_column > .wp_subcolumn > .wp_column:last-child > a {
+    display: block;
+    width: 187px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.right {
+    width: 913px;
+    float: right;
+}
+
+.right .position {
+    border-bottom: 1px dashed #ccc;
+}
+
+.right .position .col_metas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .right ul {
+    margin: 15px 0;
+} */
+
+.right .position .col_metas .col_path {
+    margin-bottom: 17px;
+    font-size: 14px;
+}
+
+.right ul .col_news_list .article_title {
+    color: #f29f37;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 50px auto;
+}
+
+/* 机构设置 - 现任领导*/
+#wp_news_w6 .wp_article_list .list_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+/* 机构设置 - 现任领导 - 详情*/
+.detail {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: none;
+}
+
+.content > .article {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content > .article > .arti_tile {
+    font-size: 30px;
+}
+
+.content > .article > .arti_metas {
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    color: #888888;
+    border-bottom: 1px dashed #aaa;
+}
+
+.content > .article > .entry {
+    padding-top: 54px;
+}
+
+/* 学院动态 */
+.content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_left {
+    width: 170px;
+    height: 116px;
+    background: #f29f37;
+}
+
+.content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right {
+    width: 714px;
+}
+.content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right > .Article_Title {
+    font-weight: bold;
+    font-size: 16px;
+}
+.content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right > .Article_PublishDate {
+    color: #f29f37;
+    font-size: 14px;
+    display: block;
+    margin-top: 22px;
+}
+
+.content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right > .Article_Title_Content {
+    display: block;
+    margin-top: 18px;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+.content > .right > ul #wp_news_w6 > .wp_article_list > .list_item > .list_item_right > .Article_Title_Content > a {
+    color: #888888;
+}
